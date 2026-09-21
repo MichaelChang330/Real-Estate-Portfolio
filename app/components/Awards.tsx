@@ -81,7 +81,6 @@ const skills = [
       "English (Native)",
       "Mandarin (Native)",
       "Cantonese (Basic)",
-      "Spanish (Beginner)",
     ],
   },
 ];
