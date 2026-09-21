@@ -706,6 +706,132 @@ export default function Projects() {
           </div>
         </div>
 
+        {/* The Parker on Higley — JLL */}
+        <div className="mt-8 bg-white border border-gray-100 p-8 md:p-12">
+          <div className="flex flex-wrap items-start justify-between gap-4 mb-8">
+            <div>
+              <p className="text-xs font-medium tracking-widest uppercase text-gray-400 mb-2">
+                JLL Capital Markets · Phoenix, AZ · August 2025
+              </p>
+              <h3 className="text-2xl font-light text-gray-900">The Parker on Higley — $56.89M Construction Financing</h3>
+              <p className="text-sm text-gray-400 mt-1">261-Unit Class A Garden-Style Multifamily · Gilbert, AZ · Artom Residential &amp; Hathaway Development</p>
+            </div>
+            <div className="flex gap-2 flex-wrap">
+              {["Debt Placement", "Construction Financing", "Multifamily", "Capital Markets"].map((tag) => (
+                <span key={tag} className="text-[11px] px-2.5 py-1 border border-gray-200 text-gray-400 tracking-wide">{tag}</span>
+              ))}
+            </div>
+          </div>
+          <p className="text-sm text-gray-500 leading-relaxed mb-8 max-w-2xl">
+            Arranged a <strong className="text-gray-700">$56.89M senior construction loan</strong> for The Parker on Higley, a shovel-ready, 261-unit Class A garden-style multifamily development on 8.36 acres in Gilbert, AZ for sponsors Artom Residential and Hathaway Development. JLL approached 5 lenders across banks, life companies, and debt funds — receiving 6 competing quotes. Navigated oversupply headwinds in the Gilbert submarket to secure a <strong className="text-gray-700">75% LTC, full-term interest-only, non-recourse</strong> senior construction loan at <strong className="text-gray-700">SOFR+450 (8.85%)</strong> from Alex Debt Fund — the highest leverage and lowest cost of capital in the lender universe. Total project cost: $76M ($291K/unit). Lender selection supported by <strong className="text-gray-700">7.5% untrended / 8.0% trended debt yield</strong> underwriting, 70% LTV, 3-year term with two 1-year extension options, and 18-month minimum interest prepayment. Market thesis anchored by supply-constrained delivery timing (Q2 2027 first units; zero planned units post-pipeline within a 3-mile radius), a <strong className="text-gray-700">55.6% rent-to-own discount</strong> in Gilbert, and median household income of $121K — 52% above Phoenix MSA.
+          </p>
+          <div className="pt-8 border-t border-gray-100">
+            <div className="flex items-center justify-between gap-2">
+              {["Source Lender Universe", "Underwrite & Compare", "Negotiate Best Terms", "Close Financing"].map((title, i) => (
+                <div key={title} className="flex items-center gap-2 flex-1">
+                  <div className="flex flex-col items-center flex-1">
+                    <div className="w-9 h-9 rounded-full border border-gray-900 flex items-center justify-center text-[11px] font-semibold text-gray-900 mb-2 flex-shrink-0">
+                      {String(i + 1).padStart(2, "0")}
+                    </div>
+                    <p className="text-[11px] font-medium text-gray-600 text-center leading-tight">{title}</p>
+                  </div>
+                  {i < 3 && (
+                    <div className="flex-shrink-0 mb-5">
+                      <div className="w-6 h-px bg-gray-300 relative">
+                        <span className="absolute -right-1 -top-1.5 text-gray-300 text-xs">›</span>
+                      </div>
+                    </div>
+                  )}
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+
+        {/* UT Austin McCombs National Real Estate Challenge */}
+        <div className="mt-8 bg-white border border-gray-100 p-8 md:p-12">
+          <div className="flex flex-wrap items-start justify-between gap-4 mb-8">
+            <div>
+              <p className="text-xs font-medium tracking-widest uppercase text-gray-400 mb-2">
+                UT Austin McCombs National Real Estate Challenge · November 2025
+              </p>
+              <h3 className="text-2xl font-light text-gray-900">Monte Carlo Capital — NTR Product Recommendation</h3>
+              <p className="text-sm text-gray-400 mt-1">Alternative Investment Strategy for Nora Wealth Solutions · 3rd Place</p>
+            </div>
+            <div className="flex gap-2 flex-wrap">
+              {["Fund Analysis", "Alternative Investments", "Private Real Estate", "Portfolio Advisory"].map((tag) => (
+                <span key={tag} className="text-[11px] px-2.5 py-1 border border-gray-200 text-gray-400 tracking-wide">{tag}</span>
+              ))}
+            </div>
+          </div>
+          <p className="text-sm text-gray-500 leading-relaxed mb-8 max-w-2xl">
+            Competed against 20 schools at the UT Austin McCombs National Real Estate Challenge, advancing to finals and <strong className="text-gray-700">placing 3rd</strong>. As Wealth Allocations lead for Monte Carlo Capital, evaluated 3 NTRs that passed due diligence from a field of 8. Recommended onboarding <strong className="text-gray-700">NREIT</strong> (Nexa Real Estate, open-ended core; NPI +278bps realized over 3Y, 40% specialty asset tilt, 95% occupancy, 90% TTM AFFO, 5% NAV redemption queue) and <strong className="text-gray-700">RCREF</strong> (Redwood Capital, open-ended RE credit; <strong className="text-gray-700">10.61% realized return</strong> vs. 8–9% target, SOFR floor protection, <strong className="text-gray-700">105% TTM AFFO coverage</strong>, annual 10% NAV tender). Deferred SCREIT III (Stoneway Capital, closed-end core-plus; 60% TTM AFFO, 40% debt maturities within 12 months). Analysis built on efficient frontier modeling showing CRE debt + NPI combination pushes the frontier, NPI vs. S&amp;P 500 volatility comparison (7.53% vs. 16.65%), and sector conviction in senior housing, student housing, and self-storage.
+          </p>
+          <div className="pt-8 border-t border-gray-100">
+            <div className="flex items-center justify-between gap-2">
+              {["Analyze Market Drivers", "SWOT Each Fund", "Evaluate Criteria", "Recommend Products"].map((title, i) => (
+                <div key={title} className="flex items-center gap-2 flex-1">
+                  <div className="flex flex-col items-center flex-1">
+                    <div className="w-9 h-9 rounded-full border border-gray-900 flex items-center justify-center text-[11px] font-semibold text-gray-900 mb-2 flex-shrink-0">
+                      {String(i + 1).padStart(2, "0")}
+                    </div>
+                    <p className="text-[11px] font-medium text-gray-600 text-center leading-tight">{title}</p>
+                  </div>
+                  {i < 3 && (
+                    <div className="flex-shrink-0 mb-5">
+                      <div className="w-6 h-px bg-gray-300 relative">
+                        <span className="absolute -right-1 -top-1.5 text-gray-300 text-xs">›</span>
+                      </div>
+                    </div>
+                  )}
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+
+        {/* MIT CASE Competition 2026 */}
+        <div className="mt-8 bg-white border border-gray-100 p-8 md:p-12">
+          <div className="flex flex-wrap items-start justify-between gap-4 mb-8">
+            <div>
+              <p className="text-xs font-medium tracking-widest uppercase text-gray-400 mb-2">
+                MIT Center for Real Estate · The CASE Competition · March 2026
+              </p>
+              <h3 className="text-2xl font-light text-gray-900">Monte Carlo Properties — J. Edgar Hoover Building 2.0</h3>
+              <p className="text-sm text-gray-400 mt-1">Mixed-Use Redevelopment of Former FBI Headquarters · 935 Pennsylvania Ave NW, Washington D.C.</p>
+            </div>
+            <div className="flex gap-2 flex-wrap">
+              {["Adaptive Reuse", "Mixed-Use Development", "Capital Markets", "Public-Private Partnership"].map((tag) => (
+                <span key={tag} className="text-[11px] px-2.5 py-1 border border-gray-200 text-gray-400 tracking-wide">{tag}</span>
+              ))}
+            </div>
+          </div>
+          <p className="text-sm text-gray-500 leading-relaxed mb-8 max-w-2xl">
+            Competed in the MIT Center for Real Estate's annual CASE Competition — one of the most prestigious graduate real estate case competitions globally. As part of Monte Carlo Properties, proposed a mixed-use adaptive reuse of the 2.8M SF J. Edgar Hoover Building on 6.66 acres along Pennsylvania Avenue following the FBI's relocation to the Ronald Reagan Building. The redevelopment program totals <strong className="text-gray-700">571,290 SF</strong> across Grade A office (264K SF, 8 floors), dual hotel product (Convention Hotel — 290 keys; Luxury Hotel — 110 keys), ground-floor retail (30 stores), FBI Museum, and 200-space below-grade parking. Capital structure: <strong className="text-gray-700">$616M total cost</strong> ($200M acquisition + $416M construction) funded via GP equity (2%), LP equity via Affinius Capital (40%), construction financing at SOFR+450 (27%), and government incentives — TIF, Historic Tax Credits, Office-to-Anything program (31%). Projected <strong className="text-gray-700">20.85% levered IRR</strong>, <strong className="text-gray-700">2.11x MoIC</strong>, and <strong className="text-gray-700">$400M profit</strong> on a 2034 exit following a 51-month stabilization period.
+          </p>
+          <div className="pt-8 border-t border-gray-100">
+            <div className="flex items-center justify-between gap-2">
+              {["Assess Market & Site", "Design Mixed-Use Program", "Structure Capital Stack", "Present to MIT Judges"].map((title, i) => (
+                <div key={title} className="flex items-center gap-2 flex-1">
+                  <div className="flex flex-col items-center flex-1">
+                    <div className="w-9 h-9 rounded-full border border-gray-900 flex items-center justify-center text-[11px] font-semibold text-gray-900 mb-2 flex-shrink-0">
+                      {String(i + 1).padStart(2, "0")}
+                    </div>
+                    <p className="text-[11px] font-medium text-gray-600 text-center leading-tight">{title}</p>
+                  </div>
+                  {i < 3 && (
+                    <div className="flex-shrink-0 mb-5">
+                      <div className="w-6 h-px bg-gray-300 relative">
+                        <span className="absolute -right-1 -top-1.5 text-gray-300 text-xs">›</span>
+                      </div>
+                    </div>
+                  )}
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+
         {/* Equinix (EQIX) Stock Pitch */}
         <div className="mt-8 bg-white border border-gray-100 p-8 md:p-12">
           <div className="flex flex-wrap items-start justify-between gap-4 mb-8">
