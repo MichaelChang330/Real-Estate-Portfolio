@@ -46,6 +46,14 @@ export default function Hero() {
             >
               LinkedIn
             </a>
+            <a
+              href="/resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block px-6 py-3 border border-gray-300 text-gray-700 text-sm font-medium tracking-wide hover:border-gray-900 hover:text-gray-900 transition-colors"
+            >
+              Download CV
+            </a>
           </div>
         </div>
       </div>
