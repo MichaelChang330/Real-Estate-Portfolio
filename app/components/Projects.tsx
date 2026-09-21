@@ -664,6 +664,48 @@ export default function Projects() {
           </div>
         </div>
 
+        {/* Verdiva — Kellogg Real Estate Venture Competition */}
+        <div className="mt-8 bg-white border border-gray-100 p-8 md:p-12">
+          <div className="flex flex-wrap items-start justify-between gap-4 mb-8">
+            <div>
+              <p className="text-xs font-medium tracking-widest uppercase text-gray-400 mb-2">
+                Kellogg Real Estate Venture Competition · April 2025
+              </p>
+              <h3 className="text-2xl font-light text-gray-900">Verdiva</h3>
+              <p className="text-sm text-gray-400 mt-1">Urban Agribusiness Venture · Class B Office Adaptive Reuse</p>
+            </div>
+            <div className="flex gap-2 flex-wrap">
+              {["Adaptive Reuse", "Vertical Farming", "Venture Capital", "ESG"].map((tag) => (
+                <span key={tag} className="text-[11px] px-2.5 py-1 border border-gray-200 text-gray-400 tracking-wide">{tag}</span>
+              ))}
+            </div>
+          </div>
+          <p className="text-sm text-gray-500 leading-relaxed mb-8 max-w-2xl">
+            Developed and pitched Verdiva at the Kellogg Real Estate Venture Competition — a real estate-driven model converting distressed Class B office buildings into <strong className="text-gray-700">carbon-positive urban agribusiness hubs</strong> through adaptive reuse and net-zero food production. The proprietary <strong className="text-gray-700">AgriSafe™</strong> model (vertical farming inspired by self-storage) leases climate-controlled microfarms to individuals, businesses, and community groups, generating <strong className="text-gray-700">20x more yield per unit</strong> with a <strong className="text-gray-700">40% net profit margin</strong> and eliminating up to 90% of food transportation emissions. Capital strategy combines a <strong className="text-gray-700">$2.3M defensive tranche</strong> (25,000 sqft AgriSafe leasing) and an <strong className="text-gray-700">$8M offensive tranche</strong> (100,000 sqft vertical farming hub). With government subsidies (TX-PACE, USDA B&amp;I, TERP), equity drops from $31M to <strong className="text-gray-700">$9.4M levered</strong> — projecting a <strong className="text-gray-700">58% levered IRR</strong>, 13.32x equity multiple, and 18% year-1 cash-on-cash return over a 10-year hold.
+          </p>
+          <div className="pt-8 border-t border-gray-100">
+            <div className="flex items-center justify-between gap-2">
+              {["Identify Opportunity", "Design AgriSafe™ Model", "Structure Capital", "Present at Kellogg"].map((title, i) => (
+                <div key={title} className="flex items-center gap-2 flex-1">
+                  <div className="flex flex-col items-center flex-1">
+                    <div className="w-9 h-9 rounded-full border border-gray-900 flex items-center justify-center text-[11px] font-semibold text-gray-900 mb-2 flex-shrink-0">
+                      {String(i + 1).padStart(2, "0")}
+                    </div>
+                    <p className="text-[11px] font-medium text-gray-600 text-center leading-tight">{title}</p>
+                  </div>
+                  {i < 3 && (
+                    <div className="flex-shrink-0 mb-5">
+                      <div className="w-6 h-px bg-gray-300 relative">
+                        <span className="absolute -right-1 -top-1.5 text-gray-300 text-xs">›</span>
+                      </div>
+                    </div>
+                  )}
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+
         {/* Equinix (EQIX) Stock Pitch */}
         <div className="mt-8 bg-white border border-gray-100 p-8 md:p-12">
           <div className="flex flex-wrap items-start justify-between gap-4 mb-8">
